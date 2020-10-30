@@ -39,7 +39,7 @@ Require the package in your application's `pubspec.yaml` file in `dev_dependenci
 
 ```yaml
 dev_dependencies:
-  adr: ^1.0.0
+  adr: ^1.0.1
 ```
 
 Then, in the root of your project, run
@@ -69,7 +69,7 @@ Available flags are:
   </tr>
   <tr>
     <td><code>-i</code></td>
-    <td>Create index file "ADR000_index.md".</td>
+    <td>Create index file "ADR0000_index.md".</td>
   </tr>
   <tr>
     <td><code>-n</code></td>
@@ -90,14 +90,14 @@ required_fields:
   status: true
   deciders: true
   date: true
-  techStory: false
+  tech_story: false
   context: true
-  decisionDrivers: false
-  consideredOptions: true
-  decisionOutcome: true
+  decision_drivers: false
+  considered_options: true
+  decision_outcome: true
   pros: false
   cons: false
-  prosConsOpts: false
+  pros_cons_opts: false
   links: false
 ```
 

@@ -42,14 +42,14 @@ required_fields:
   status: true
   deciders: true
   date: true
-  techStory: false
+  tech_story: false
   context: true
-  decisionDrivers: false
-  consideredOptions: true
-  decisionOutcome: true
+  decision_drivers: false
+  considered_options: true
+  decision_outcome: true
   pros: false
   cons: false
-  prosConsOpts: false
+  pros_cons_opts: false
   links: false
 ''';
 
